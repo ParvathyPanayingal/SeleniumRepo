@@ -1,0 +1,34 @@
+   ExtentSparkReporter sparkReporter;
+   public ExtentTest test;
+     
+=============
+
+ extent = new ExtentReports();
+ sparkReporter = new ExtentSparkReporter(currdir +  "/ExtentReports/extent-report"
+     + DateTime.Now.ToString("yyyyMMdd_HHmmss") + ".html");
+
+ extent.AttachReporter(sparkReporter);
+
+==================
+
+   try
+   {
+       Assert.That(driver?.FindElement(By.XPath("//div[" +
+           "@class='modal-inner-wrap']//following::h1[2]")).Text,
+           Is.EqualTo("Create an Account"));
+       test = extent.CreateTest("Create Account Link Test - Pass");
+       test.Pass("Create Account Link success");
+       Console.WriteLine("ERCP");
+   }
+   catch
+   {
+       test = extent.CreateTest("Create Account Link Test - Fail");
+       test.Fail("Create Account Link failed");
+       Console.WriteLine("ERCF");
+   }
+
+==============================
+
+            extent.Flush();
+============================
+
