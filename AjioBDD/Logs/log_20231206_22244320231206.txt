@@ -1,0 +1,11 @@
+2023-12-06 22:24:52.240 +05:30 [INF] SearchedSandals
+2023-12-06 22:24:52.300 +05:30 [INF] Screenshot taken
+2023-12-06 22:24:53.235 +05:30 [INF] Search Test Success
+2023-12-06 22:24:53.235 +05:30 [INF] Search TestPassed
+2023-12-06 22:24:53.543 +05:30 [INF] Screenshot taken
+2023-12-06 22:24:53.573 +05:30 [INF] Heading Test Success
+2023-12-06 22:24:53.573 +05:30 [INF] Heading TestPassed
+2023-12-06 22:24:54.029 +05:30 [INF] Screenshot taken
+2023-12-06 22:24:56.121 +05:30 [INF] Product Test Success
+2023-12-06 22:24:56.121 +05:30 [INF] Product TestPassed
+2023-12-06 22:25:00.493 +05:30 [INF] Screenshot taken
