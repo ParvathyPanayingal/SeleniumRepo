@@ -1,0 +1,12 @@
+2023-12-05 14:42:56.609 +05:30 [INF] Search Test success
+2023-12-05 14:42:56.650 +05:30 [INF] Search TestPassed
+2023-12-05 14:43:00.860 +05:30 [INF] Heading Test success
+2023-12-05 14:43:00.860 +05:30 [INF] Heading TestPassed
+2023-12-05 14:43:00.913 +05:30 [INF] Title Test Failed
+2023-12-05 14:43:00.913 +05:30 [ERR] Test failed for Title Test. 
+ Exception: 
+   Expected: String containing "Search results for: 'water'"
+  But was:  "water"
+
+2023-12-05 14:43:08.373 +05:30 [INF] Product Test success
+2023-12-05 14:43:08.373 +05:30 [INF] Product TestPassed
